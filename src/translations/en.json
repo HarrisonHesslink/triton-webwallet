@@ -1,6 +1,6 @@
 {
   "website":{
-	"title":"Official Equilibria Web Wallet",
+	"title":"Equilibria Web Wallet",
 	"description":"Official online wallet for Equilibria currency - fast, anonymous, and fully handled in your browser for optimal security"
   },
   "messages": {
@@ -62,7 +62,7 @@
 	  "github": "GitHub"
 	},
 	"homepage": {
-	  "mainTitle": "Secure Equilibria Wallet",
+	  "mainTitle": "Equilibria Web Wallet",
 	  "tagLine": "The simplest way to use Equilibria - anywhere and any time",
 	  "actions": {
 		"loadWallet": "Load my wallet",
@@ -136,8 +136,8 @@
 	},
 	"createWalletPage":{
 	  "generatingStep":{
-		"title":"Your wallet is being generated...",
-		"subtitle":"It's almost done",
+		"title":"Welcome to Equilibria Online Wallet",
+		"subtitle":"",
 		"waitingMessage":"Generating your wallet..."
 	  },
 	  "finalizationStep":{
