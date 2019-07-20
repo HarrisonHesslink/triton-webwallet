@@ -105,7 +105,7 @@
 		"emptyWallet": "Jelenleg nincsen egyenleged ebben a tárcában.",
 		"waitSync": "Kérlek, várj, míg a tárca naprakész lesz",
 		"beReallyPatient": "A kezdeti beállítás némi időbe telhet...",
-		"getMSRAddress": "MSR fogadása"
+		"getMSRAddress": "XEQ fogadása"
 	  },
 	  "txDetails":{
 		"title":"Tranzakciórészletek",
@@ -202,7 +202,7 @@
 	  }
 	},
 	"sendPage":{
-	  "title":"MSR küldése",
+	  "title":"XEQ küldése",
 	  "sendBlock":{
 		"address":{
 		  "label":"Kedvezményezett címe",
@@ -269,7 +269,7 @@
 	  }
 	},
 	"receivePage":{
-	  "title":"MSR fogadása",
+	  "title":"XEQ fogadása",
 	  "receiveBlock":{
 		"address":{
 		  "title":"Pénz fogadására szolgáló cím:",

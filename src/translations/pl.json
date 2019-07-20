@@ -105,7 +105,7 @@
         "emptyWallet": "Obecnie nie masz środków w tym portfelu.",
         "waitSync": "Poczekaj, aż portfel zostanie zaktualizowany.",
         "beReallyPatient": "Wstępna konfiguracja może zająć trochę czasu...",
-        "getMSRAddress": "Odbierz MSR"
+        "getMSRAddress": "Odbierz XEQ"
       },
       "txDetails":{
         "title":"Szczegóły stransakcji",
@@ -202,7 +202,7 @@
     }
   },
   "sendPage":{
-    "title":"Wyślij MSR",
+    "title":"Wyślij XEQ",
     "sendBlock":{
       "address":{
         "label":"Adres dotacji",
@@ -269,7 +269,7 @@
 	  }
 	},
   "receivePage":{
-	  "title":"Odbierz MSR",
+	  "title":"Odbierz XEQ",
 	  "receiveBlock":{
 		"address":{
 		  "title":"Twój adres, aby otrzymać fundusze:",
@@ -297,7 +297,7 @@
 	},
   "miningPage":{
   	  "title":"Kop bezpośrednio w przeglądarce",
-  	  "subtitle":"Wspieraj sieć przez wydobycie i zostań nagrodzony w MSR",
+  	  "subtitle":"Wspieraj sieć przez wydobycie i zostań nagrodzony w XEQ",
   	  "parameterBlock":{
   		"title":"Parametry",
   		"labelDestinationAddress":"Portfel do kopania",

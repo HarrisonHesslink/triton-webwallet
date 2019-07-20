@@ -1,4 +1,4 @@
-<img src="./assets/img/Masari_Vertical.png" id="verticalMasariLogo" style="display: none;"/>
+<img src="./assets/img/logo_white.png" id="verticalMasariLogo" style="display: none;"/>
 <canvas id="canvasExport" style="display: none;"></canvas>
 
 <div id="app" class="body-root" v-cloak="">
@@ -20,7 +20,7 @@
 	</div>
 
 	<div class="body-content" >
-		<div class="panel" v-if="step == 0">
+		<div class="panel cw" v-if="step == 0">
 			<div class="body" >
 				<div class="content tc" >
 					<div class="text loader">
@@ -29,7 +29,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="panel" v-if="step == 1">
+		<div class="panel cw" v-if="step == 1">
 			<div class="body" >
 				<div class="header-title" >{{ $t("createWalletPage.finalizationStep.title") }}</div>
 				<div class="content" >
@@ -58,7 +58,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="panel" v-if="step == 2">
+		<div class="panel cw" v-if="step == 2">
 			<div class="body" >
 				<div class="header-title" >{{ $t("createWalletPage.finalizationStep.backupBlock.title") }}</div>
 				<div class="content" >
@@ -97,7 +97,7 @@
 			</div>
 		</div>
 
-		<div class="panel inline hideOnNative" >
+		<div class="panel cw inline hideOnNative" >
 			<div class="body" >
 				<div class="header-title" >{{ $t("createWalletPage.disclaimerBlock.title") }}</div>
 				<div class="content" v-html="$t('createWalletPage.disclaimerBlock.content')"></div>
