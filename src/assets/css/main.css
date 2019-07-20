@@ -124,7 +124,7 @@ body.menuHidden #menu {
 }
 
 #menu{
-	background: #040d14;
+	background: #0b1822;
 	color: white;
 	padding:10px 15px;
 }
@@ -485,7 +485,6 @@ body.native .indexTab .mainBlock {
 .indexTab .mainBlock h1{
 	display: inline-block;
 	color:white;
-	border-bottom:1px solid white;
 	padding: 0 20px;
 	margin-bottom: 0;
 	font-size: 40px;
@@ -726,12 +725,22 @@ body{
 	position: relative;
 }
 .panel.cw{
-	background: #040d14;
+	background: #040D14;
 	padding: 32px 40px 32px 40px;
 	margin-bottom: 30px;
 	position: relative;
 	font-weight: 700;
 }
+
+.color-1{
+	background: #0b1822;
+	color: white;
+	padding: 32px 40px 32px 40px;
+	margin-bottom: 30px;
+	position: relative;
+	font-weight: 700;
+}
+
 .panel.nopadding{
 	padding:0;
 }
@@ -1048,4 +1057,8 @@ body{
 }
 .progress .label{
 	display: block;
+}
+
+.text-center {
+	text-align: center;
 }
