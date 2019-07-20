@@ -2,7 +2,7 @@ let global : any = typeof window !== 'undefined' ? window : self;
 global.config = {
 	apiUrl:typeof window !== 'undefined' && window.location ? window.location.href.substr(0,window.location.href.lastIndexOf('/')+1)+'api/' : 'http://localhost/api/',
 	trustedDaemonsAddresses:[
-		'http://sanfran.xtri.network:9231/'
+		'http://wallet.equilibria.network:8080/'
 	],
 	phpRelay:typeof window !== 'undefined' ? true : false,
 	mainnetExplorerUrl: "https://explorer.xtri.network",

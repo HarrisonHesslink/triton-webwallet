@@ -76,16 +76,16 @@
 		  "description": "No servers, fully encrypted!"
 		},
 		"fast": {
-		  "title": "Fast",
-		  "description": "Send Everywhere, Anytime!"
+		  "title": "Easy Access",
+		  "description": "Send Anywhere, Any Time"
 		},
 		"technology": {
-		  "title": "Unique Technology",
-		  "description": "Connected directly to the Equilibria blockchain!"
+		  "title": "Fast & Efficient",
+		  "description": ""
 		},
 		"openSource": {
-		  "title": "Fully Open-source",
-		  "description": "Available on Github!"
+		  "title": "Open-Source",
+		  "description": ""
 		}
 	  }
 	},
