@@ -24,8 +24,8 @@ let blockchainExplorer: BlockchainExplorer = BlockchainExplorerProvider.getInsta
 
 class NetworkView extends DestructableView{
 	@VueVar(0) networkHashrate !: number;
-	@VueVar(0) blockchainHeight !: number;
-	@VueVar(0) networkDifficulty !: number;
+	@VueVar(0) blockchainHeight !: string;
+	@VueVar(0) networkDifficulty !: string;
 	@VueVar(0) lastReward !: number;
 	@VueVar(0) lastBlockFound !: number;
 
@@ -48,9 +48,9 @@ class NetworkView extends DestructableView{
 
 	refreshStats() {
 		blockchainExplorer.getNetworkInfo().then((info : NetworkInfo)=>{
-			this.networkDifficulty = info.difficulty;
-			this.networkHashrate = info.difficulty/config.avgBlockTime/1000000;
-			this.blockchainHeight = info.height;
+			this.networkDifficulty = info.difficulty.toLocaleString();
+			this.networkHashrate = parseInt((info.difficulty/config.avgBlockTime/1000000).toFixed(2));
+			this.blockchainHeight = info.height.toLocaleString();
 			this.lastReward = info.reward/Math.pow(10, config.coinUnitPlaces);
 			this.lastBlockFound = info.timestamp;
 		});

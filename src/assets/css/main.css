@@ -13,7 +13,8 @@
  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-body,html{margin:0;padding:0;min-height:100%;overflow-x:hidden}
+body,html{margin:0;padding:0;min-height:100%;overflow-x:hidden;font-family: 'Roboto', sans-serif;
+}
 div,p,input,label{box-sizing: border-box;}
 
 *[v-cloak] {
@@ -26,7 +27,7 @@ div,p,input,label{box-sizing: border-box;}
 body{
 	overflow-y: hidden;
 	font-weight: normal;
-	background: #f7f7f7;
+	background: #040D14;
 }
 body.menuHidden{
 	overflow-y: auto;
@@ -123,7 +124,7 @@ body.menuHidden #menu {
 }
 
 #menu{
-	background: #36393f;
+	background: #040d14;
 	color: white;
 	padding:10px 15px;
 }
@@ -160,7 +161,7 @@ body.menuHidden #menu {
 	top:0;
 	bottom:0;
 	width: 100%;
-	background: rgba(255,255,255,0.6);
+	background: #fff;
 	z-index: 10;
 	text-align: center;
 	color:black;
@@ -195,7 +196,7 @@ body.menuHidden #page,body.menuDisabled #page{
 
 #copyright{
 	padding:30px 0;
-	color: #474E5D;
+	color: #fff;
 	font-size: 14px;
 	padding-left:10px;
 	position: relative;
@@ -457,11 +458,7 @@ body.transparent #copyright{
 .indexTab .mainBlock{
 	min-height:90vh;
 	position: relative;
-	/*background: url(../img/binary-background.jpg) #146DBD;*/
 	text-align: center;
-	background-image: -webkit-linear-gradient(rgba(62, 75, 92, 0.70), rgba(62, 75, 92, 0.70)), url(../img/landing/75-usersthink-stock-image.jpg);
-	background-image: -o-linear-gradient(rgba(62, 75, 92, 0.70), rgba(62, 75, 92, 0.70)), url(../img/landing/75-usersthink-stock-image.jpg);
-	background-image: linear-gradient(rgba(62, 75, 92, 0.70), rgba(62, 75, 92, 0.70)), url(../img/landing/75-usersthink-stock-image.jpg);
 	background-position: center center;
 	background-size: cover;
 	margin-bottom:160px;
@@ -512,7 +509,7 @@ body.native .indexTab .mainBlock > .actions{
 }
 .indexTab .mainBlock > .actions .btn{
 	/*padding:3px;*/
-	background: white;
+	background: 040d14;
 	margin-top: 0;
 	margin-right: 20px;
 }
@@ -574,16 +571,15 @@ body.native .indexTab .mainBlock > .actions{
 	text-align: center;
 	padding-top: 36px;
 	padding-bottom: 31px;
-	border-radius: 5px;
-	-webkit-box-shadow: 0 10px 25px 0 rgba(88, 102, 128, 0.1);
-	box-shadow: 0 10px 25px 0 rgba(88, 102, 128, 0.1);
+	-webkit-box-shadow: 0 0px 7px 0 #fff;
+	box-shadow: 0 0px 7px 0 #fff;
 }
 .indexTab .block i{
 	font-size: 40px;
-	color:#75829e;
+	color:#040d14;
 }
 .indexTab .block h3{
-	color:#212529;
+	color:#040d14;
 	font-size: 24px;
 	margin: 0;
 	margin-bottom:5px;margin-top:8px;
@@ -593,7 +589,7 @@ body.native .indexTab .mainBlock > .actions{
 	text-decoration: none;
 }
 .indexTab .block h4{
-	color:#868e96;
+	color:#040d14;
 	font-size: 14px;
 	margin: 0;
 	font-weight: normal;
@@ -700,7 +696,7 @@ body{
 }
 .body-header .header-title {
 	font-size: 26px;
-	color: #474E5D;
+	color: #fff;
 	line-height: 1;
 	margin-bottom: 15px;
 }
@@ -710,12 +706,12 @@ body{
 }
 .body-header .header-subtitle {
 	font-size: 14px;
-	color: #474E5D;
+	color: #fff;
 	line-height: 26px;
 }
 .body-header .header-subtitle a {
 	font-size: 14px;
-	color: #474E5D;
+	color: #fff;
 	line-height: 1;
 }
 
@@ -725,12 +721,16 @@ body{
 
 .panel{
 	background: #FFF;
-	border-radius: 5px;
 	padding: 32px 40px 32px 40px;
 	margin-bottom: 30px;
-	-webkit-box-shadow: 0 10px 25px 0 #DFE3EC;
-	box-shadow: 0 10px 25px 0 #DFE3EC;
 	position: relative;
+}
+.panel.cw{
+	background: #040d14;
+	padding: 32px 40px 32px 40px;
+	margin-bottom: 30px;
+	position: relative;
+	font-weight: 700;
 }
 .panel.nopadding{
 	padding:0;
@@ -748,14 +748,14 @@ body{
 .panel .body{}
 .panel .header-title{
 	font-size: 20px;
-	color: #474E5D;
+	color: #fff;
 	margin-bottom: 22px;
 }
 .panel.nopadding .header-title{
 	padding: 32px 40px 0 40px;
 }
 .panel .body > .content{
-	color:#7c818c;
+	color:#fff;
 	line-height: 26px;
 	word-wrap: break-word;
 }
@@ -783,7 +783,6 @@ body{
 	transition: opacity .1s ease,color .1s ease,background .1s ease,-webkit-box-shadow .1s ease;
 	transition: opacity .1s ease,color .1s ease,background .1s ease,box-shadow .1s ease;
 	transition: opacity .1s ease,color .1s ease,background .1s ease,box-shadow .1s ease,-webkit-box-shadow .1s ease;
-	border-radius: .28571429rem;
 	-webkit-box-shadow: 0 0 0 1px rgba(34,36,38,.22) inset, 0 0 0 0 transparent;
 	box-shadow: 0 0 0 1px rgba(34,36,38,.22) inset, 0 0 0 0 transparent;
 	word-break: break-all;
@@ -812,7 +811,6 @@ body{
 	vertical-align: middle;
 	font-size: 1.07rem;
 	line-height: 1.4;
-	border-radius: .28571429rem;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -822,14 +820,14 @@ body{
 	transition: all .25s ease;
 	padding: .78571429em 1.5em .78571429em;
 }
-.btn.basic{background:none;color:#e0e1e2;border:2px solid #e0e1e2;}
-.btn.basic:hover{background:none !important;color:#e0e1e2;border:2px solid #e0e1e2;}
-.btn:hover{background-color: #cacbcd;color: rgba(0,0,0,.8);}
+.btn.basic{background:none;color:#040D14;border:2px solid #e0e1e2;}
+.btn.basic:hover{background-color:#040D14 !important;color:#e0e1e2;border:2px solid #e0e1e2;}
+.btn:hover{color: #fff;background-color: #040D14;border: 1px solid #fff}
 
-.btn.primary{color: #fff;background-color: #2185d0;}
-.btn.primary.basic{color: #2185d0;border-color: #2185d0;}
-.btn.primary:hover {background-color: #1678c2;}
-.btn.primary.basic:hover{color: #1678c2;border-color: #1678c2;}
+.btn.primary{color: #040D14;background-color: #fff;}
+.btn.primary.basic{color: #fff;background-color: #040D14;}
+.btn.primary:hover {color: #fff;background-color: #040D14;border: 1px solid #fff}
+.btn.primary.basic:hover{color: #fff;background-color: #040D14;border: 1px solid #fff}
 
 .btn.teal{background-color: #00b5ad;color: #fff;}
 .btn.teal:hover{background-color: #009c95;color: #fff;}
@@ -847,6 +845,8 @@ body{
 }
 
 .btn.mini{font-size: .78571429rem;}
+.btn.mini:hover{font-size: .78571429rem;color: #fff;background: #040D14;border: 1px solid #fff}
+
 .btn.tiny{font-size: .85714286rem;}
 .btn.small{font-size: .92857143rem;}
 .btn.medium{font-size: 1rem;}
@@ -923,7 +923,6 @@ body{
 	height: 17px;
 	content: '';
 	background: #fff;
-	border-radius: .21428571rem;
 	-webkit-transition: border .1s ease,opacity .1s ease,-webkit-transform .1s ease,-webkit-box-shadow .1s ease;
 	transition: border .1s ease,opacity .1s ease,-webkit-transform .1s ease,-webkit-box-shadow .1s ease;
 	transition: border .1s ease,opacity .1s ease,transform .1s ease,box-shadow .1s ease;
@@ -963,7 +962,6 @@ body{
 	height: 1.5rem;
 	top: 0;
 	left: 0;
-	border-radius: 500rem;
 	-webkit-transition: background .3s ease,left .3s ease;
 	transition: background .3s ease,left .3s ease;
 }
@@ -1001,7 +999,7 @@ body{
 	border: .2em solid rgba(0,0,0,.1);
 }
 .text.loader:after{
-	border-color: #767676 transparent transparent;
+	border-color: #fff transparent transparent;
 	position: absolute;
 	content: '';
 	top: 0;
@@ -1011,7 +1009,7 @@ body{
 	-webkit-animation-iteration-count: infinite;
 	animation-iteration-count: infinite;
 	border-radius: 500rem;
-	border-color: #767676 transparent transparent;
+	border-color: #fff transparent transparent;
 	border-style: solid;
 	border-width: .2em;
 	-webkit-box-shadow: 0 0 0 1px transparent;
@@ -1024,6 +1022,7 @@ body{
 @-webkit-keyframes loader{from{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
 @keyframes loader{from{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
 
+
 /*===================PROGRESS=================*/
 .progress{
 	height:24px;
@@ -1031,7 +1030,7 @@ body{
 	position: relative;
 	display: block;
 	max-width: 100%;
-	background: rgba(0,0,0,.1);
+	background: #fff;
 	margin-bottom:1.5rem;
 	text-align: center;
 }
@@ -1040,7 +1039,7 @@ body{
 	position: relative;
 	width: 0;
 	min-width: 2em;
-	background: #888;
+	background: #fff;
 	border-radius: .28571429rem;
 	-webkit-transition: width .1s ease,background-color .1s ease;
 	transition: width .1s ease,background-color .1s ease;

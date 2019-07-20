@@ -23,6 +23,8 @@ export type DaemonResponseGetInfo = {
 	"alt_blocks_count": number,
 	"block_size_limit": number,
 	"block_size_median": number,
+	"block_weight_limit":number,
+	"block_weight_median":number,
 	"bootstrap_daemon_address": string,
 	"cumulative_difficulty": number,
 	"cumulative_weight": number,

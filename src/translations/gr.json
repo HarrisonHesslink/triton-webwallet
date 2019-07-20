@@ -105,7 +105,7 @@
 		"emptyWallet": "Αυτή τη στιγμή δεν έχετε χρήματα σε αυτό το πορτοφόλι.",
 		"waitSync": "Παρακαλώ περιμένετε μέχρι να ανανεωθεί το πορτοφόλι",
 		"beReallyPatient": "Η αρχική ρύθμιση μπορεί να διαρκέσει λίγη ώρα...",
-		"getMSRAddress": "Λήψη MSR"
+		"getMSRAddress": "Λήψη XEQ"
 	  },
 	  "txDetails":{
 		"title":"Λεπτομέρειες συναλλαγής",
@@ -201,7 +201,7 @@
 	  }
 	},
 	"sendPage":{
-	  "title":"Στείλτε MSR",
+	  "title":"Στείλτε XEQ",
 	  "sendBlock":{
 		"address":{
 		  "label":"Διεύθυνση παραλήπτη",
@@ -268,7 +268,7 @@
 	  }
 	},
 	"receivePage":{
-	  "title":"Λήψη MSR",
+	  "title":"Λήψη XEQ",
 	  "receiveBlock":{
 		"address":{
 		  "title":"Η διεύθυνσή σας για λήψη χρημάτων:",

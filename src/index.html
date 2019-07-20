@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Masari Web Wallet</title>
-	<meta property="og:title" content="Masari Web Wallet" />
+	<title>Equilibria Web Wallet</title>
+	<meta property="og:title" content="Equilibria Web Wallet" />
 	<meta property="twitter:title" content="" />
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,9 +15,13 @@
 
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+
 
 	<link rel="manifest" href="/manifest.json">
-
+	<link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+	<script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
 	<!-- Add to home screen for Safari on iOS -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -55,7 +59,7 @@
 </div>
 
 <div id="menu" >
-	<a><img src="./assets/img/logo.png"/></a>
+	<a><img src="./assets/img/logo_white.png"/></a>
 	<a href="#!index" class="onlyNotConnected"><span class="icon" ><i class="fa fa-bank" aria-hidden="true"></i></span> {{ $t("menu.home") }}</a>
 	<a href="#!account" class="onlyWhenConnected"><span class="icon" ><i class="fa fa-bank" aria-hidden="true"></i></span> {{ $t("menu.account") }}</a>
 	<a href="#!send" class="onlyWhenConnected notViewOnlyWallet"><span class="icon" ><i class="fa fa-level-up" aria-hidden="true"></i></span> {{ $t("menu.send") }}</a>
@@ -75,7 +79,7 @@
 <div id="page" ></div>
 
 <div id="copyright" v-cloak="" >
-	<div class="hideOnNative" >© 2018 www.masariwallet.com</div>
+	<div class="hideOnNative" >© 2018 wallet.equilibria.network</div>
 	<div class="links" >
 		<select v-model="language" class="hideOnNative">
 			<option value="en">English</option>

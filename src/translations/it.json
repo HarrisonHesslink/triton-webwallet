@@ -105,7 +105,7 @@
 		"emptyWallet": "Al momento non disponi di fondi su questo portafoglio",
 		"waitSync": "Si prega di attendere la fine della sincronizzazione",
 		"beReallyPatient": "La prima sincronizzazione potrebbe richiedere alcuni minuti ...",
-		"getMSRAddress": "Ricevi MSR"
+		"getMSRAddress": "Ricevi XEQ"
 	  },
 	  "txDetails":{
 		"title":"Dettagli transazione",
@@ -202,7 +202,7 @@
 	  }
 	},
 	"sendPage":{
-	  "title":"Invia MSR",
+	  "title":"Invia XEQ",
 	  "sendBlock":{
 		"address":{
 		  "label":"Indirizzo di destinazione",
@@ -269,7 +269,7 @@
 	  }
 	},
 	"receivePage":{
-	  "title":"Ricevi MSR",
+	  "title":"Ricevi XEQ",
 	  "receiveBlock":{
 		"address":{
 		  "title":"Il tuo indirizzo per ricevere i fondi",
@@ -297,7 +297,7 @@
 	},
 	"miningPage":{
 	  "title":"Mina direttamente nel tuo browser",
-	  "subtitle":"Supporta il network minando e ricevi MSR come ricompensa",
+	  "subtitle":"Supporta il network minando e ricevi XEQ come ricompensa",
 	  "parameterBlock":{
 		"title":"Parametri",
 		"labelDestinationAddress":"Portafoglio di destinazione",
