@@ -34,7 +34,7 @@ if (config.testnet === true)
 	CRYPTONOTE_PUBLIC_SUBADDRESS_BASE58_PREFIX = config.subAddressPrefixTestnet;
 }
 let UINT64_MAX = new JSBigInt(2).pow(64);
-let CURRENT_TX_VERSION = 1;
+let CURRENT_TX_VERSION = 2;
 let OLD_TX_VERSION = 1;
 let TX_EXTRA_NONCE_MAX_COUNT = 255;
 let TX_EXTRA_TAGS = {
