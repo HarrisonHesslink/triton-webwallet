@@ -6,7 +6,7 @@
 		</div>
 	</div>
 	<div class="body-content" >
-		<div class="panel">
+		<div class="panel cw">
 			<div class="body" >
 				<div class="header-title" >{{ $t("receivePage.receiveBlock.address.title") }}</div>
 				<div class="content" >
@@ -44,7 +44,7 @@
 		</div>
 
 		<img src="./assets/img/logoQrCode.png" id="masariQrCodeLogo" style="display: none;"/>
-		<div class="panel inline">
+		<div class="panel cw inline">
 			<div class="body" >
 				<div class="header-title" >{{ $t("receivePage.qrBlock.title") }}</div>
 				<div class="content" >
@@ -55,7 +55,7 @@
 			</div>
 		</div>
 
-		<div class="panel inline" v-if="hasNfc && hasWritableNfc">
+		<div class="panel cw inline" v-if="hasNfc && hasWritableNfc">
 			<div class="body" >
 				<div class="header-title" >Nfc</div>
 				<div class="content" >

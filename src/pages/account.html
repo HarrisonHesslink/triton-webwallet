@@ -9,28 +9,30 @@
 	</div>
 	<div class="body-content" >
 
-		<div class="panel inline" v-if="currentScanBlock+2 < blockchainHeight" >
+		<div class="panel cw inline" v-if="currentScanBlock+2 < blockchainHeight" >
 			<div class="progress" >
 				<div class="bar" :style="'width:'+((currentScanBlock+1)/blockchainHeight*100 | 0)+'%'" >{{(((currentScanBlock+1)/blockchainHeight*1000 | 0) / 10)}}%</div>
-				<label>
+				<label class="text-white">
 					{{ $t("accountPage.synchronizingBlock.text") }} <span class="currentScanBlock" >{{currentScanBlock+1}}</span>/<span class="blockchainHeight" >{{blockchainHeight}}</span>
 				</label>
 			</div>
 		</div>
 
-		<div class="panel">
+		<div class="panel cw">
 			<div class="body" >
-				<div class="header-title" >{{ $t("accountPage.balanceBlock.title") }}</div>
-				<div class="content" >
-					<span class="walletAmount" >{{ $n(walletAmount / currencyDivider) }}</span> XEQ
+				<div class="wallet-header">
+				<h1 class="big-wallet-font-1">{{ $t("accountPage.balanceBlock.title") }}</h3>
+				<div class="content">
+					<h4 id="walletAmount" class="big-wallet-font-1">{{ $n(walletAmount / currencyDivider) }}</h4>
 					<tempate class="amount unlocked" v-if="unlockedWalletAmount !== walletAmount" >
-						<br/><span class="walletAmount" >{{ $t("accountPage.balanceBlock.unlocked") }}: {{ $n(unlockedWalletAmount / currencyDivider) }}</span> XEQ
+						<h4 class="walletAmount big-wallet-font-2" >{{ $t("accountPage.balanceBlock.unlocked") }}<br/> {{ $n(unlockedWalletAmount / currencyDivider) }} XEQ</h4> 
 					</tempate>
+				</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="panel nopadding">
+		<div class="panel cw nopadding">
 			<div class="body" >
 				<div class="header-title" >{{ $t("accountPage.historyBlock.title") }}</div>
 				<div class="content" >
@@ -49,9 +51,6 @@
 									<td class="moreInfo">
 										<i class="fa fa-search" aria-hidden="true" @click="moreInfoOnTx(transaction)"></i>
 									</td>
-								</tr>
-								<tr v-if="transaction.paymentId !== ''">
-									<td colspan="4" class="paymentId" >{{transaction.paymentId}}</td><!--UNDER-->
 								</tr>
 							</template>
 							<tr v-if="transactions.length == 0" >

@@ -96,8 +96,8 @@
 		"text": "Synchronizing..."
 	  },
 	  "balanceBlock": {
-		"title": "Your balance",
-		"unlocked": "Unlocked"
+		"title": "Total Balance",
+		"unlocked": "Unlocked Balance"
 	  },
 	  "historyBlock": {
 		"title": "Transaction history",

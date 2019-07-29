@@ -229,14 +229,15 @@ body.transparent #copyright{
 
 .transactions table{
 	width: 100%;
-	border-collapse: collapse;
+	margin-bottom: 30px;
 	table-layout: fixed;
+	padding:20px 20px;
 }
 .transactions .transaction{
-	border-bottom: 1px solid #E2E2E2;
+	background: #0B1822;
 }
 .transactions .transaction td{
-	padding:8px 0;
+	padding:20px 0;
 }
 .transactions td.noTransactions{
 	text-align: center;
@@ -244,11 +245,12 @@ body.transparent #copyright{
 
 .transactions .transaction div{
 	font-size: 16px;
+	padding: 20px;
 }
 .transactions .transaction .direction{
 	font-size: 20px;
 	width: 5%;
-	padding-left:5px;
+	padding-left:50px;
 }
 .transactions .transaction .timestamp{
 	width: 45%;
@@ -261,7 +263,7 @@ body.transparent #copyright{
 	padding-right:5px;
 }
 .transactions .transaction .amount.more{color:#6bc534;}
-.transactions .transaction .amount.less{color:#5b5b5b;}
+.transactions .transaction .amount.less{color:#c53434;}
 .transactions .transaction .moreInfo {
 	font-size: 20px;
 	width: 8%;
@@ -1061,4 +1063,26 @@ body{
 
 .text-center {
 	text-align: center;
+}
+
+.text-white {
+	color:white;
+}
+
+.wallet-header{
+	background: #0B1822;
+	padding:20px 0px;
+	width: 100%;
+	padding-left:50px;
+	color: white;
+}
+.big-wallet-font-2 {
+	font-weight: 700;
+	font-size: 18px;
+
+}
+.big-wallet-font-1 {
+	font-weight: 800;
+	font-size:20px;
+
 }
