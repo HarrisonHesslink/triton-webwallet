@@ -19,7 +19,7 @@
 	  "loading": "Loading",
 	  "disableSecurity":"Disable this security, I understand the risk",
 	  "passwordInvalidRequirements":"The password needs at least 8 characters - 1 upper case letter, 1 lower case letter, one number, and one special character",
-	  "passwordConfirmationNotMatching":"The password does not match the first password you wrote",
+	  "passwordConfirmationNotMatching":"Passwords do not match! Try again...",
 	  "download":"Download",
 	  "newVersionModal":{
 		"title":"A new version is available",
@@ -34,16 +34,16 @@
 	  },
 	  "invalidPasswordModal":{
 		"title":"Oops...",
-		"content":"Your password seems invalid",
+		"content":"Invalid Password",
 		"confirmText":"OK"
 	  },
 	  "invalidMnemonicModal":{
 		"title":"Oops...",
-		"content":"The mnemonic phrase is invalid",
+		"content":"Invalid mnemonic phrase",
 		"confirmText":"OK"
 	  },
 	  "passwordNotComplexEnoughModal":{
-		"title":"The password is not complex enough",
+		"title":"Password does not meet the required security measures.",
 		"confirmText":"OK"
 	  },
 	  "permissionRequiredForCameraModal":{
@@ -90,7 +90,7 @@
 	  }
 	},
 	"accountPage": {
-	  "title": "Account",
+	  "title": "Equilibria Account",
 	  "subtitle": "Your account overview and transaction history",
 	  "synchronizingBlock": {
 		"text": "Synchronizing..."
@@ -102,7 +102,7 @@
 	  "historyBlock": {
 		"title": "Transaction history",
 		"pendingTxStatus": "Pending",
-		"emptyWallet": "You currently have no funds in this wallet.",
+		"emptyWallet": "You currently have no funds in this account.",
 		"waitSync": "Please wait until the wallet is updated.",
 		"beReallyPatient": "The initial setup can take some time...",
 		"getMSRAddress": "Receive XEQ"
@@ -120,10 +120,10 @@
 	  "title":"Change your password",
 	  "oldPassword":{
 		"label":"Old password",
-		"invalid":"The password is invalid"
+		"invalid":"Invalid Password!"
 	  },
 	  "newPassword":{
-		"label":"Choose a new password to protect your wallet"
+		"label":"Choose a new password to protect your account"
 	  },
 	  "newPasswordConfirm":{
 		"label":"Confirm the new password"
@@ -160,7 +160,7 @@
 		  "mnemonicPhrase":"Mnemonic phrase",
 		  "separatorManualMethodsSolution":" or ",
 		  "confirmManuallyWritten":"I wrote my seed phrase down",
-		  "warningMessage":"**Do not lose it!** It cannot be recovered if you lose it.<br/>**Do not share it!** Your funds will be stolen if you use this file or seed on a malicious/phishing site.<br/>**Make a backup!** Secure it like the millions of dollars it may one day be worth.<br/>",
+		  "warningMessage":"**Do not lose it!** It cannot be recovered if you lose it.<br/>**Do not share it!** Your funds will be stolen if you use this file or seed on a malicious/phishing site.<br/>**Make a backup!**<br/>",
 		  "finishButton":"I understand. Continue."
 		}
 	  },

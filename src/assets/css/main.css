@@ -127,6 +127,8 @@ body.menuHidden #menu {
 	background: #0b1822;
 	color: white;
 	padding:10px 15px;
+	border-right:3px solid #fff;
+
 }
 .menuDisabled #menu{
 	display: none;
@@ -232,9 +234,13 @@ body.transparent #copyright{
 	margin-bottom: 30px;
 	table-layout: fixed;
 	padding:20px 20px;
+	border-collapse: collapse;
 }
 .transactions .transaction{
 	background: #0B1822;
+	border:1px solid #fff;
+	border-collapse: collapse;
+
 }
 .transactions .transaction td{
 	padding:20px 0;
@@ -247,14 +253,11 @@ body.transparent #copyright{
 	font-size: 16px;
 	padding: 20px;
 }
-.transactions .transaction .direction{
-	font-size: 20px;
-	width: 5%;
-	padding-left:50px;
-}
+
 .transactions .transaction .timestamp{
 	width: 45%;
-	font-size: 20px;
+	font-size: 16px;
+	padding-left:10px;
 }
 .transactions .transaction .amount{
 	font-size: 20px;
@@ -1075,6 +1078,7 @@ body{
 	width: 100%;
 	padding-left:50px;
 	color: white;
+	border:3px solid #fff;
 }
 .big-wallet-font-2 {
 	font-weight: 700;
